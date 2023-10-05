@@ -1,0 +1,31 @@
+.header {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem;
+    row-gap: 1.5rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+
+    & > img {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1rem;
+    }
+}
+
+.h1 {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
